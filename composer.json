@@ -1,0 +1,22 @@
+{
+    "name": "preprio/php-graphql-sdk",
+    "description": "Prepr PHP GraphQL SDK",
+    "keywords": ["php", "prepr"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Prepr",
+            "email": "support@prepr.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "guzzlehttp/guzzle": "^7.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Preprio\\": "src/"
+        }
+    }
+}
